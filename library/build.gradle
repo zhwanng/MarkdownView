@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven-publish'
 
-group = 'com.github.tiagohm'
+group = 'com.github.zhwanng'
 
 android {
     compileSdkVersion 27
@@ -42,4 +42,18 @@ dependencies {
     implementation 'com.vladsch.flexmark:flexmark-ext-attributes:0.28.32'
     //Logger
     implementation 'com.orhanobut:logger:1.15'
+}
+
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.zhwanng'
+                artifactId = 'MarkdownView'
+                version = '0.19.1'
+            }
+        }
+    }
 }

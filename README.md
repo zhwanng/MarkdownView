@@ -1,5 +1,8 @@
 # MarkdownView
 
+[![Release](https://jitpack.io/v/User/Repo.svg)]
+(https://jitpack.io/#zhwanng/MarkdownView)
+
 Android library to display markdown text.
 
 It uses [Flexmark](https://github.com/vsch/flexmark-java) and some of its extensions.
