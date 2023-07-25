@@ -1,6 +1,6 @@
 # MarkdownView
 
-[![Release](https://jitpack.io/v/User/Repo.svg)]
+[![Release](https://jitpack.io/v/zhwanng/MarkdownView.svg)]
 (https://jitpack.io/#zhwanng/MarkdownView)
 
 Android library to display markdown text.
